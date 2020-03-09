@@ -24,4 +24,4 @@ If you use the dataset or code, please cite the following work:
 ```
 
 ## Download Link
-We will publish dataset and code after the coronavirus is over.
+We will publish dataset and code later.
