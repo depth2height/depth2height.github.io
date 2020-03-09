@@ -10,12 +10,12 @@
 &#8195;We ﬁrst divide 1767 images from 12 people  into two parts: part A and B . Part A has 1707 images to form the training set. PartB, denoted as Familiar-test, has 60 images and is part of the test set. Network may recognize the identity information from the image of Part B.  
 &#8195;The 369 images of all the other volunteers are part C, denoted as Strange-test. It is impossible for network to recognize any identity information from part C since none of them appears in the training set. It will be very easy to determine whether the network has learned identity information or body height under such a data set conﬁguration. It only need to compare the difference of accuracy between part B and C.
 ##### Intermediate Representation Generation Method
-Torso Information T: We ﬁrst train an FCN network using the PASCAL VOC dataset to recognize human from human body from our color images, then we do manual annotation to retain only the torso information T. 
-Label Image L: Next the joint points are automatically recognized and then we do some manual corrections to get the four part segmentation image as Label Image L. 
-### Cite
+&#8195;Torso Information T: We ﬁrst train an FCN network using the PASCAL VOC dataset to recognize human from human body from our color images, then we do manual annotation to retain only the torso information T.   
+&#8195;Label Image L: Next the joint points are automatically recognized and then we do some manual corrections to get the four part segmentation image as Label Image L. 
+### Citation
 If you use the dataset or code, please cite the following work:  
 ```
-@inproceedings{deep2height2020,  
+@inproceedings{deep2height2020cvpr,  
   title={Accurate Estimation of Body Height from a Single Depth Image via a Four-Stage Developing Network},  
   author={Fukun Yin and Shizhe Zhou},  
   booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},  
