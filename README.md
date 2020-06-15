@@ -15,12 +15,13 @@
 ### Citation
 If you use the dataset or code, please cite the following work:  
 ```
-@inproceedings{deep2height2020cvpr,  
-  title={Accurate Estimation of Body Height from a Single Depth Image via a Four-Stage Developing Network},  
-  author={Fukun Yin and Shizhe Zhou},  
-  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},  
-  year={2020}  
-}  
+@InProceedings{Yin_2020_CVPR,
+author = {Yin, Fukun and Zhou, Shizhe},
+title = {Accurate Estimation of Body Height From a Single Depth Image via a Four-Stage Developing Network},
+booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}
 ```
 
 ## Download Link
