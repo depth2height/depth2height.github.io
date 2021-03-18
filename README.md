@@ -25,4 +25,4 @@ year = {2020}
 ```
 
 ## Download Link
-We will publish dataset and code later.
+Please contact us by email.
